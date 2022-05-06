@@ -92,8 +92,50 @@ int main()
     // printf("\nCalling Pointer Usage\n");
     // value_address();
 
-    printf("\nCalling Pointer Arithmetic\n");
-    pointer_arithmetic();
+    // printf("\nCalling Pointer Arithmetic\n");
+    // pointer_arithmetic();
+
+    /*
+    Section:3 Lecture 15. Pointers Arithmetic - DIY Exercises
+
+    int num = 30;
+    int *p;
+
+    printf("\n%d", num);
+    p = &num;
+    printf("\n%p", &num);
+    printf("\n%p", p);
+    *p = 20;
+    printf("\n%d", num);
+    */
+
+    /*
+    Section:3 Lecture 17. The “sizeof” Operator - Basic Exercises
+
+    int grade = 80;
+    printf("\n1.size of variable = %ld\n", sizeof(grade));
+
+    double dgrade = 79.9;
+    printf("\n2. size of variable = %ld\n", sizeof(dgrade));
+
+    int grade1 = 80, grade2 = 90;
+    printf("\n3. size of variable = %ld\n", sizeof(grade1 + grade2));
+
+    int agrade1 = 80, agrade2 = 90;
+    printf("\n4. size of variable = %ld\n", sizeof(agrade1) + sizeof(agrade2));
+
+    printf("\n5. size pf double = %ld\n", sizeof(double));
+
+    printf("\n6. size = %ld\n", sizeof(char));
+
+    printf("\n7. size = %ld\n", sizeof(int));
+
+    printf("\n8. size = %ld\n", sizeof(float));
+
+    printf("\n9. size = %ld\n", sizeof('a'));
+
+    printf("\n10. size = %ld\n", sizeof("a"));
+    */
 
     printf("\n\nGoodbye\n\n");
 
